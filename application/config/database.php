@@ -68,8 +68,7 @@ if (!$link) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
-echo $connectstr_dbusername . PHP_EOL;
-echo $connectstr_dbpassword . PHP_EOL;
+
 
 mysqli_close($link);
 $active_group = 'default';
